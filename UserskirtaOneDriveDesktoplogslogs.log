@@ -1,0 +1,5 @@
+2023-06-08 09:18:37 INFO  OrderController:32 - Inserted new row
+2023-06-08 09:22:42 INFO  OrderController:31 - Inserted new row
+2023-06-08 09:23:01 INFO  OrderController:39 - Updated id=1 and amount is 35
+2023-06-08 09:23:18 INFO  OrderController:48 - Showing all records
+2023-06-08 09:23:30 INFO  OrderController:44 - Deleted records of id=1
