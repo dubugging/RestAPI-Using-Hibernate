@@ -19,19 +19,16 @@ public class OrderDAOImpl implements OrdersDAO{
         em = entityManager;
     }
     @Override
-    @Transactional
     public void save(Order order) {
         em.persist(order);
     }
     @Override
-    @Transactional
     public void updateAmount(int id, int amount) {
         var order = this.findById(id);
         order.setAmount(35);
         em.merge(order);
     }
     @Override
-    @Transactional
     public void deleteById(int id) {
         em.remove(this.findById(id));
     }
